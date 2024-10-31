@@ -8,12 +8,16 @@ body{
 }
 .home{
   display: flex;
+  flex-wrap: wrap;
 }
 .in-flex{
   flex: 1;
+  min-width: 300px;
 }
 .in-flex:first-child{
   flex: 1;
+  padding: 25px;
+  margin: 20px;
 }
 .in-flex div {
   padding: 25px;
