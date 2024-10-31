@@ -15,3 +15,7 @@ body{
 .in-flex:first-child{
   flex: 2;
 }
+.in-flex div {
+  padding: 25px;
+  margin: 20px;
+}
