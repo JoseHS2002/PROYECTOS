@@ -1,6 +1,17 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+}
 body{
   background-color: #0000FF;
 }
-.texto{
-center: 0px;
+.home{
+  display: flex;
+}
+.in-flex{
+  flex: 1;
+}
+.in-flex:first-child{
+  flex: 2;
 }
