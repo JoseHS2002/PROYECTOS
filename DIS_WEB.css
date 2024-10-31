@@ -13,7 +13,7 @@ body{
   flex: 1;
 }
 .in-flex:first-child{
-  flex: 2;
+  flex: 1;
 }
 .in-flex div {
   padding: 25px;
