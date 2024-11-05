@@ -6,8 +6,11 @@
 body{
   background-color: #0000FF;
 }
-img{
-width: 50%;
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
 }
 .home{
   display: flex;
