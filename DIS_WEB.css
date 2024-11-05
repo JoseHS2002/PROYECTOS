@@ -23,3 +23,32 @@ body{
   padding: 1px;
   margin: 1px;
 }
+.element {
+width: 50%;
+background-color: blue;
+font-family: Arial;
+}
+
+@media (max-width: 800px){
+  .element{
+    width: 100%;
+    background-color: blue;
+    font-family: Arial;
+  }
+}
+
+@media (max-width: 1200px){
+.element{
+    width: 100%;
+    background-color: blue;
+    font-family: Arial;
+  }
+}
+
+@media (min-width: 800px){
+  .element{
+    width: 100%;
+    background-color: blue;
+    font-family: Arial;
+  }
+}
