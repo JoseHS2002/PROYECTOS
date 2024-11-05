@@ -16,10 +16,10 @@ body{
 }
 .in-flex:first-child{
   flex: 1;
-  padding: 25px;
-  margin: 20px;
+  padding: 1px;
+  margin: 1px;
 }
 .in-flex div {
-  padding: 25px;
-  margin: 20px;
+  padding: 1px;
+  margin: 1px;
 }
