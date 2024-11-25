@@ -8,20 +8,14 @@
     <p>Chuacknorris.io</p>
     <p>The Rick and Morty API</p>
 
-<script>
-import { ref, onMounted } from 'vue'
-export default {
-    name: 'Characters',
-    setup() {
-        let characters = ref(null)
-        onMounted(async () => {
-        const response = await fetch ("https://rickandmortyapi.com/api/character"); // no funciona
-            characters = await response.json()       
-        })
-        return {characters.results}
-    },
-}
-</script>
+<div>
+    <h1>Api</h1>
+    <ul v-if="characters">
+        <li v-for="character in characters" :key="character.id" :name="character.name">
+            <h3>{{ character.name}}</h3>
+        </li>            
+    </ul>       
+</div>
     
   </body>
 </html>
