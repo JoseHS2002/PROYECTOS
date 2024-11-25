@@ -7,6 +7,21 @@
     <p>Api de la NASA</p>
     <p>Chuacknorris.io</p>
     <p>The Rick and Morty API</p>
+
+<script>
+import { ref, onMounted } from 'vue'
+export default {
+    name: 'Characters',
+    setup() {
+        let characters = ref(null)
+        onMounted(async () => {
+        const response = await fetch ("https://rickandmortyapi.com/api/character"); // no funciona
+            characters = await response.json()       
+        })
+        return {characters.results}
+    },
+}
+</script>
     
   </body>
 </html>
