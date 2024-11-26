@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <link href="API.css" rel="stylesheet">
   <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
                     data.results.forEach(character => {
                         const div = document.createElement('div');
                         div.classList.add('character');
-                        div.innerHTML = `<strong>${character.name}</strong><br>Status: ${character.status}<br>Specie: ${character.species}`;
+                        div.innerHTML = `<strong>${character.name}</strong><br>Status: ${character.status}<br>Specie: ${character.species}<br>Gender: ${character.gender}`;
                         characterList.appendChild(div);
                     });
                 })
