@@ -8,10 +8,22 @@
   </head>
   <body>
     <h1>Rick and Morty Personajes</h1>
+    
     <button id="fetch-button">Buscar Personajes</button>
     <div id="character-list"></div>
     
     <script>
+
+      fetch('https://rickandmortyapi.com/api/character/avatar')
+        .then(response => response.json())
+        .then(data => {
+          const avatarList = document.getElementById('avatar-list');
+          
+          <br>json.forEach(item => {<br>console.log(`Imagen: ${avatar.image}`);
+        });
+    })
+    .catch(error => console.error('Error:', error));
+      
         document.getElementById('fetch-button').addEventListener('click', function() {
             fetch('https://rickandmortyapi.com/api/character')
                 .then(response => response.json())
