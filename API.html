@@ -11,6 +11,9 @@
     <button id="fetch-button">Buscar Personajes</button>
     <div id="character-list"></div>
 
+    <img src="Rick.jpg">
+    <img src="Morty.jpg">
+    
     <script>
         document.getElementById('fetch-button').addEventListener('click', function() {
             fetch('https://rickandmortyapi.com/api/character')
@@ -21,8 +24,6 @@
                     data.results.forEach(character => {
                         const div = document.createElement('div');
                         div.classList.add('character');
-                        <img src="Rick.jpg">
-                        <img src="Morty.jpg">
                         div.innerHTML = `<strong>Nombre: ${character.name}</strong><br>Estado: ${character.status}<br>Especie: ${character.species}<br>Genero: ${character.gender}`;
                         characterList.appendChild(div);
                     });
