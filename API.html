@@ -11,26 +11,8 @@
     
     <button id="fetch-button">Buscar Personajes</button>
     <div id="character-list"></div>
-    <button id="search-button">Buscar Personajes</button>
-    <div id="avatar-list"></div>
     
     <script>
-    document.getElementById('search-button').addEventListener('click', function() {
-      fetch('https://rickandmortyapi.com/api/character/avatar')
-        .then(response => response.json())
-        .then(data => {
-          const avatarList = document.getElementById('avatar-list');
-          avatarList.innerHTML = '';
-          data.results.forEach(item => {
-            const div = document.createElement('div');
-            div.classList.add('avatar');
-            div.innerHTML = `Imagen: ${avatar.image}`;
-            avatarList.appendChild(div);
-        });
-    })
-    .catch(error => console.error('Error:', error));
-});
-      
         document.getElementById('fetch-button').addEventListener('click', function() {
             fetch('https://rickandmortyapi.com/api/character')
                 .then(response => response.json())
