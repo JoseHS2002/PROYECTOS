@@ -17,3 +17,4 @@ El programa tiene instalado electron, pero por alguna razón no se abre la venta
 Teniendo en cuenta de que una parte funciona pero otra no, creo que debería tener un 5.
 
 https://josehs2002.github.io/PROYECTOS/electron-form/manga.html
+https://josehs2002.github.io/PROYECTOS/electron-form/mangaA.html
