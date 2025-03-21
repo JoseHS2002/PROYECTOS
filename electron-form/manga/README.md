@@ -19,3 +19,5 @@ Teniendo en cuenta de que una parte funciona pero otra no, creo que debería ten
 https://josehs2002.github.io/PROYECTOS/electron-form/manga.html
 
 https://josehs2002.github.io/PROYECTOS/electron-form/mangaA.html
+
+https://josehs2002.github.io/PROYECTOS/electron-form/elecP1.png
