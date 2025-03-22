@@ -24,5 +24,5 @@ Al buscar el manga
 https://josehs2002.github.io/PROYECTOS/electron-form/ElecM2.png
 
 Al buscar el autor
-
+https://josehs2002.github.io/PROYECTOS/electron-form/ElecM3.png
 
