@@ -16,8 +16,8 @@ Avaluación
 El programa tiene instalado electron, pero por alguna razón no se abre la ventana ni realiza la busqueda.
 Teniendo en cuenta de que una parte funciona pero otra no, creo que debería tener un 5.
 
-https://josehs2002.github.io/PROYECTOS/electron-form/manga.html
+El usuario entra en la carpeta y al ejecutar "npm start" entra en la siguiente pagina
+https://josehs2002.github.io/PROYECTOS/electron-form/ElecM1.png
 
-https://josehs2002.github.io/PROYECTOS/electron-form/mangaA.html
+El programa sigue con problemas, aqui hay algunas imagenes para que se entienda que tendría que pasar.
 
-https://josehs2002.github.io/PROYECTOS/electron-form/elecP1.png
