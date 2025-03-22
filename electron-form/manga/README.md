@@ -20,4 +20,9 @@ El usuario entra en la carpeta y al ejecutar "npm start" entra en la siguiente p
 https://josehs2002.github.io/PROYECTOS/electron-form/ElecM1.png
 
 El programa sigue con problemas, aqui hay algunas imagenes para que se entienda que tendría que pasar.
+Al buscar el manga
+https://josehs2002.github.io/PROYECTOS/electron-form/ElecM2.png
+
+Al buscar el autor
+
 
